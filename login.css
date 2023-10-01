@@ -19,7 +19,7 @@ body {
 }
 
 .form {
-    background-color: gray;
+    background-color: white;
     padding: 30px;
     display: flex;
     flex-direction: column;
