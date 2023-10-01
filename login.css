@@ -1,0 +1,67 @@
+* {
+    text-decoration: none;
+    font-family: cursive;
+}
+
+body {
+    background: #ADA996;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#lbl1,
+#lbl2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,50%);
+}
+
+#lbl1 {
+    margin-top: -70px;
+}
+
+#password1,
+#username1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    text-align: center;
+}
+
+#username1 {
+    margin-top: -50px;
+    margin-left: 35px;
+}
+
+#password1 {
+    margin-top: 30px;
+    margin-left: 35px;
+}
+
+#btn1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    margin-top: 80px;
+    margin-left: 35px;
+}
+
+#noAccount {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    margin-top: 110px;
+    margin-left: 30px;
+}
+
+.center {
+    width: 400px;
+    height: 300px;
+    background-color: black;
+    border: 2px solid;
+    border-color: tomato;
+}
